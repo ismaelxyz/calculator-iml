@@ -15,5 +15,3 @@ mvn package
 # Just run
 java -cp target/CalculatorIML-1.0.0.jar com.uptbal.calculator.view.Window
 ```
-
-additionally it has the `make.rb` helper script written in the Ruby language, which allows you to save time and execute some commands (build, build a jar, run, etc) in a comfortable way.
