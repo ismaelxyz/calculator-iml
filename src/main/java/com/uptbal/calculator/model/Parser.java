@@ -9,7 +9,7 @@ public class Parser {
     Token ahead;
 
     public Parser(String source) {
-    this.lexer = new Lexer(source);        
+        this.lexer = new Lexer(source);        
         
         advance();
         advance();
@@ -21,7 +21,7 @@ public class Parser {
 
     private void advance() {
         if (current == null || ahead.type != TokenType.Eof) {
-            current    = ahead;
+            current = ahead;
             ahead = lexer.nextToken();
         }
     }

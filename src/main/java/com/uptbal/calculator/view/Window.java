@@ -33,7 +33,9 @@ public class Window extends JFrame {
         setSize(350, 300);
         setTitle("Calculator IML");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setIconImage(new ImageIcon("./assets/logo.png").getImage());
+
+        java.net.URL imageURL = getClass().getResource("/images/logo.png");
+        setIconImage(new ImageIcon(imageURL).getImage());
 
         var panel = (JPanel) this.getContentPane();
         panel.setLayout(new BorderLayout());
