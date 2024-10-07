@@ -11,7 +11,7 @@ To build or run it you only need Java (I recommend the Java Development Kit A.K.
 
 ```bash
 # Just build
-mvn package
+./gradlew build
 # Just run
-java -cp target/CalculatorIML-1.0.0.jar com.uptbal.calculator.view.Window
+./gradlew run
 ```

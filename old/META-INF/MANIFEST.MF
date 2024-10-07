@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Class-Path: com/uptbal/calculator/view
-Main-Class: com.uptbal.calculator.view.Window
-RegistrationClassName: Window
-Created-By: Ismael Michael Luis
